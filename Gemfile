@@ -48,4 +48,4 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+# Trying to fix mail problem
