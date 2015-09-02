@@ -10,6 +10,7 @@ ActionMailer::Base.smtp_settings = {
   :authentication => :plain,
   :user_name => ENV['app38711293@heroku.com'],
   :password => ENV['iiyz21j95049'],
-  :domain => 'evening-cove-2748.herokuapp.com',
+  :domain => 'heroku.com',
   :enable_startstls_auto => true
 }
+ActionMailer::Base.default_url_options = { host: 'evening-cove-2748.herokuapp.com' }
