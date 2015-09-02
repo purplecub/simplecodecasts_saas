@@ -10,6 +10,6 @@ ActionMailer::Base.smtp_settings = {
   :authentication => :plain,
   :user_name => 'YXBwMzg3MTEyOTNAaGVyb2t1LmNvbQ==',
   :password => 'aWl5ejIxajk1MDQ5',
-  :domain => 'heroku.com',
+  :domain => 'evening-cove-2748.herokuapp.com',
   :enable_startstls_auto => true
 }
