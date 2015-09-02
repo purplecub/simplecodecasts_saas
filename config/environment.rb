@@ -13,4 +13,3 @@ ActionMailer::Base.smtp_settings = {
   :domain => 'heroku.com',
   :enable_startstls_auto => true
 }
-ActionMailer::Base.default_url_options = { host: 'evening-cove-2748.herokuapp.com' }
