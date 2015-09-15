@@ -7,5 +7,5 @@ stripe_api_key: sk_test_SOWkV3K50EEGwxSKTE6L0bui
 stripe_publishable_key: pk_test_SpPMq5KYAxHI5B3sRFp69dzm
 #
 production:
-    stripe_api_key: sk_test_SOWkV3K50EEGwxSKTE6L0bui
-    stripe_publishable_key: pk_test_SpPMq5KYAxHI5B3sRFp69dzm
+  stripe_api_key: sk_test_SOWkV3K50EEGwxSKTE6L0bui
+  stripe_publishable_key: pk_test_SpPMq5KYAxHI5B3sRFp69dzm
