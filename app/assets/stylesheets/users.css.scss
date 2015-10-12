@@ -40,7 +40,17 @@
 
 // User's index page styles
 .user-index-avatar {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
+}
+
+.user-background-box {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #99CCFF;
+}
+
+.col-sm-8 h4 {
+    margin-top: 15px;
 }
