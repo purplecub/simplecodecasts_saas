@@ -17,6 +17,9 @@
                                 <div class="col-sm-8">
                                     <%= link_to user do %>
                                         <h4> <%= user.profile.first_name %> <%= user.profile.last_name %></h4>
+                                        <% if user.plan_id == 2 %>
+                                            <span class="label label-success">PRO</span>
+                                        <% end %>
                                     <% end %>
                                 </div>
                             </div>
@@ -43,6 +46,9 @@
                                 <div class="col-sm-8">
                                     <%= link_to user do %>
                                         <h4> <%= user.profile.first_name %> <%= user.profile.last_name %></h4>
+                                        <% if user.plan_id == 2 %>
+                                            <span class="label label-success">PRO</span>
+                                        <% end %>
                                     <% end %>
                                 </div>
                             </div>
@@ -69,6 +75,9 @@
                                 <div class="col-sm-8">
                                     <%= link_to user do %>
                                         <h4> <%= user.profile.first_name %> <%= user.profile.last_name %></h4>
+                                        <% if user.plan_id == 2 %>
+                                            <span class="label label-success">PRO</span>
+                                        <% end %>
                                     <% end %>
                                 </div>
                             </div>
