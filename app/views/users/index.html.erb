@@ -1,10 +1,7 @@
-
-<h1 class="text-center">DevMatch Community</h1>
-<p class="text-center">Welcome to the DevMatch community. Users must fill out a profile to be visible in the community.</p>
 <div class="row">
     <div class="col-md-4">
         <div class="well">
-            <h3 class="text-center">Developers</h3>
+            <h2 class="text-center">Developers</h2>
             <!--<h4 class="text-center">Featured Developer:</h4>-->
             
             <% @users.each do |user| %>
@@ -34,7 +31,7 @@
     </div>
     <div class="col-md-4">
         <div class="well">
-            <h3 class="text-center">Entrepreneurs</h3>
+            <h2 class="text-center">Entrepreneurs</h2>
             
             <% @users.each do |user| %>
                 <% if user.profile %>
@@ -63,7 +60,7 @@
     </div>
     <div class="col-md-4">
         <div class="well">
-            <h3 class="text-center">Investors</h3>
+            <h2 class="text-center">Investors</h2>
             
             <% @users.each do |user| %>
                 <% if user.profile %>
